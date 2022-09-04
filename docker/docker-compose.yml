@@ -7,7 +7,9 @@ services:
    ports: 
      - 8080:8080
 
-      
+
+   #docker pull maven:3.8.1-openjdk-16-slim
+
   #docker-compose down -v
   #docker pull deivin/cliente:1.0
   #docker-compose up
